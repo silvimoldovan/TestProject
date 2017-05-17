@@ -114,7 +114,7 @@ public class ValidatorTest {
         student8=new Student("dfss1234","Nemes","Raul",345);
         allstudents.add(student7);
         allstudents.add(student8);
-        assertEquals(validator.existNrReg("lddd9923",allstudents),false);
+        assertEquals(validator.existNrReg("lddd9923",allstudents),true);
         assertEquals(validator.existNrReg("bmig0003",allstudents),false);
 
 
